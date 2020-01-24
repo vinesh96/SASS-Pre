@@ -1,0 +1,18 @@
+div .container {
+  margin: auto;
+  font: Georgia 1.1em;
+  width: 700px; }
+
+div h1 {
+  color: #2980b9; }
+
+div table {
+  border: 1px solid #eee; }
+  div table tr:nth-child(odd) {
+    background: #eee; }
+  div table td:first-child {
+    width: 150px; }
+  div table th {
+    background-color: #00a88a; }
+    div table th:hover {
+      background-color: #f4025f; }

@@ -1,0 +1,35 @@
+$myfont: Georgia 1.1em;
+$table_row_col: #eee;
+$table_bor_col: #eee;
+$container_width: 700px;
+$first_col_width: 150px;
+$headerColor: #2980b9;
+$tableHeaderColor: #00a88a;
+
+div{
+    .container {
+    margin: auto; 
+    font: $myfont;
+    width: $container_width;
+}
+h1 {
+color:$headerColor;
+}
+
+table {
+
+    tr:nth-child(odd) {background: $table_row_col}
+
+    td:first-child {width: $first_col_width}
+  
+    th {
+        background-color: $tableHeaderColor;
+    
+        &:hover{
+            background-color: #f4025f;
+        }}
+   
+
+    border: 1px solid $table_bor_col;
+}
+}
